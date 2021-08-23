@@ -140,7 +140,7 @@ export default {
           Make the request to the POST /single-file URL
         */
       axios
-        .post("http://54.151.201.145:8000/api/upload", formData, {
+        .post("http://18.142.23.26:8000/api/upload", formData, {
           headers: {
             "Content-Type": "multipart/form-data",
           },
